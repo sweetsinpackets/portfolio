@@ -1,0 +1,113 @@
+.skip a {
+    background: rgb(255, 250, 240);
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 5;
+
+    /*Your code here - position relative to the parent */
+    position: absolute;
+    /*Your code here - place 40px higher */;
+    top: -40px;
+}
+
+.skip a:focus {
+    top: 0;
+}
+
+
+.header-height {
+    min-height: 0;
+}
+
+/* .nav-box>div {
+    flex-direction: column;
+    height: auto;
+} */
+nav {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: rgb(69,90,100)!important;
+    overflow: visible;
+    padding: 0;
+    padding-left: 16px;
+    box-sizing: border-box;
+    height: 40px;
+    vertical-align: baseline;
+}
+header .mdl-layout__tab{
+    height: 40px;
+    line-height: 40px;
+}
+
+/* The footer css */
+footer {
+    background-color: #362e2e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size:16px;
+    line-height: 1.2;
+}
+.socialmedia a{
+    color: #f4bfbf;
+    /* text-decoration: none; */
+}
+.socialmedia a:hover{
+    text-decoration: underline;
+}
+.footerContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footerContent>div{
+    margin: 10px;
+}
+
+@media (max-width:479px)  {
+    .header-small {
+        position: relative;
+    }
+    .mdl-layout__container {
+        position: relative;
+    }
+    .header-small .nav-box {
+        flex-direction: column;
+    }
+    .header-small .mdl-layout__tab-bar-container {
+        height: auto;
+    }
+    .header-small .mdl-layout__tab-bar {
+        padding-left: 0;
+    }
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:850px) {
+
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+
+    .skip a {
+        -webkit-transition: none;
+        transition: none;
+    }
+    * {
+        animation-duration: 0s;
+        transition: none;
+        scroll-behavior: auto;;
+    }
+}

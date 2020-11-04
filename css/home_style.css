@@ -1,0 +1,58 @@
+
+.education {
+    width: 100%;
+}
+
+.teaching-assistant {
+    width: 100%;
+}
+
+
+
+/* animation */
+.up-anime {
+    position: relative;
+    -webkit-animation-name: animatehead;
+    -webkit-animation-duration: 1s;
+    animation-name: animatehead;
+    animation-duration: 1s
+}
+@-webkit-keyframes animatehead {
+    from { bottom:-150px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+@keyframes animatehead {
+    from { bottom: -150px; opacity: 0 }
+    to { bottom: 0; opacity: 1 }
+}
+
+
+
+
+
+/* reduced anime mode */
+@media screen and (prefers-reduced-motion: reduce) {
+  .up-anime{
+      -webkit-animation: none;
+      animation: none;
+  }
+}
+
+
+
+/* tablet */
+@media (min-width:480px) and (max-width:850px) {
+    
+}
+
+/* desktop */
+@media (min-width:851px) {
+    .education {
+        width: 60%;
+    }
+    
+    .teaching-assistant {
+        width: 40%;
+    }
+    
+}

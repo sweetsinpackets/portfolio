@@ -17,6 +17,11 @@
 }
 
 
+a {
+    color: blue;
+}
+
+
 .header-height {
     min-height: 0;
 }
@@ -54,6 +59,9 @@ footer {
 .socialmedia a{
     color: #f4bfbf;
     /* text-decoration: none; */
+}
+footer a{
+    color: #f4bfbf;
 }
 .socialmedia a:hover{
     text-decoration: underline;

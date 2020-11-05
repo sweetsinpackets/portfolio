@@ -1,0 +1,26 @@
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-box>img {
+    width: 300px;
+    transition: .5s;
+    opacity: 0.8;
+    filter: grayscale(80%);
+    margin: 10px;
+}
+
+.gallery-box > img:hover, .gallery-box > img:focus  {
+    transform: scale(1.2);
+    opacity: 1;
+    border: 5px rosybrown groove;
+    filter: none;
+    z-index: 5;
+}
+
+.gallery-instruction {
+    text-align: center;
+}

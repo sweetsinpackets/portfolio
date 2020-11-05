@@ -1,0 +1,20 @@
+.education {
+    width: 100%;
+}
+
+.teaching-assistant {
+    width: 100%;
+}
+
+
+/* desktop */
+@media (min-width:851px) {
+    .education {
+        width: 60%;
+    }
+    
+    .teaching-assistant {
+        width: 40%;
+    }
+    
+}

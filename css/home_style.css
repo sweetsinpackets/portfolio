@@ -19,7 +19,7 @@
 }
 
 .welcome{
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 
@@ -60,14 +60,18 @@
 
 @media (max-width:479px) {
     .welcome-box {
-        display: none;
+        /* display: none; */
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
 /* tablet */
 @media (min-width:480px) and (max-width:850px) {
     .welcome-box {
-        display: none;
+        /* display: none; */
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 

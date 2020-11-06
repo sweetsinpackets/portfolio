@@ -16,11 +16,26 @@
     top: 0;
 }
 
-
+/* these are the fucking settings to avoid contrast error */
 a {
-    color: blue;
+    color: darkblue;
 }
+header p{
+    display: none;
+}
+.mdl-demo .mdl-card__actions a {
+    color:darkblue;
+}
+nav .mdl-layout__tab {
+    color: white;
+}
+nav .is-active {
+    background-color: black;
+}
+/* end of fuck contrast */
 
+
+/* the headers */
 
 .header-height {
     min-height: 0;
@@ -95,6 +110,7 @@ footer a{
     nav {
         flex-direction: column;
         height: auto;
+        padding-left: 0px;
     }
 }
 

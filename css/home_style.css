@@ -97,17 +97,19 @@ input[type=submit]:hover {
 .seal-box {
     display: grid;
     grid-template-columns: 6fr 4fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto auto auto;
     justify-items: center;
 }
 
 #seal-photo {
     grid-column: 1/2;
+    grid-row: 1/6;
     overflow: hidden;
 }
 
 #seal-text {
     grid-column: 2/3;
+    grid-row: 2/5;
     /* font-family:  "Comic Sans MS"; */
     line-height: 1.6;
     padding-right: 60px;

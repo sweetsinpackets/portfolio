@@ -16,7 +16,7 @@
 .gallery-box > img:hover, .gallery-box > img:focus  {
     transform: scale(1.2);
     opacity: 1;
-    border: 5px rosybrown groove;
+    border: 5px darkblue;
     filter: none;
     z-index: 5;
 }
@@ -32,9 +32,11 @@
         opacity: 1;
         transition: none;
     }
+
     .gallery-box > img:hover{
         transform: none;
     }
+    
     .gallery-box > img:focus{
         transform: none;
     }

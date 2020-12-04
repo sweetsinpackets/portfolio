@@ -182,9 +182,13 @@ input[type=submit]:hover {
         transform: none;
         transition: none;
     }
-    .protect-seaseal {
-        display: none;
+    .flip-card-inner {
+        transition: none;
     }
+    .flip-card-inner {
+        transform: none;
+    }
+
 }
 
 @media (max-width:479px) {

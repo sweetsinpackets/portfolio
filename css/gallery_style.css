@@ -25,3 +25,17 @@
     text-align: center;
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .gallery-box > img {
+        filter: none;
+        opacity: 1;
+        transition: none;
+    }
+    .gallery-box > img:hover{
+        transform: none;
+    }
+    .gallery-box > img:focus{
+        transform: none;
+    }
+}
